@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulario</title>
+    <style>
+         * {
+            padding: 0%;
+            margin: 0%;
+         }
+
+         header {
+             display: flex;
+             align-items: center;
+             justify-content: center; 
+             padding: 28px;  
+             background-color:cornflowerblue ;
+             color: white;
+             font-family: Cambria, Arial;
+         }
+
+         section {
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             height: 80vh;
+         }
+
+         form {
+            font-family: Arial; 
+         }
+
+         form div {
+             display: flex;
+             flex-direction: column;
+             margin-bottom: 30px;
+         }
+
+         form input, form textarea {
+             outline:unset ;
+             padding: 10px;
+             width: 300px;
+             border: 1px solid cornflowerblue;
+             border-radius:20px ;
+         }
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Formulario de Contato </h1>
+    </header>
+    <section>
+        <form>
+            <div>
+                <label>Nome</label>
+                <input type="text" placeholder="Digite seu Nome" name="name" required/>
+            </div>
+<br>
+            <div>
+                <label>Telefone</label>
+                <br>
+                <input type="text" placeholder="Digite seu Telefone" name=telefone required/>
+            </div>
+            <div>
+                <label>Mensagen</label>
+                <br>
+                <textarea rows="15" name="nsg" required></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar"/>
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>

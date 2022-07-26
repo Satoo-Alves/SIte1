@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    border: 1px solid rgb(255, 153, 0);
+    border-radius: 30px;
+    background: rgb(255, 166, 0);
+    color: white;
+}
+.menu{
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    border: 1px solid rgb(255, 153, 0);
+    border-radius: 30px;
+    background: rgb(255, 166, 0);
+    color: white;
+    
+}
+
+.menu a{
+        color: whitesmoke;
+        padding: 14px 16px;
+        float: left;
+        display: block;
+        text-decoration: none;
+    }
+    a{
+        color: white;
+    }
+    body{
+        background-image: url(https://arquivo.devmedia.com.br/marketing/img/guia-html-38051.png);
+    }
+    p{
+        color: white;
+    }

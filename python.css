@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.986);
+    border-radius: 30px;
+    background: rgb(0, 0, 0);
+    color: white;}
+
+    body{
+        background-image: url(https://programadoresbrasil.com.br/wp-content/uploads/2020/08/python.1-1200x900.jpg)
+    }
+    .menu a{
+        color: whitesmoke;
+        padding: 14px 16px;
+        float: left;
+        display: block;
+        text-decoration: none;
+        border: 1px solid rgba(0, 0, 0, 0.986);
+        border-radius: 30px;
+        background: rgb(0, 0, 0);
+        color: white;}
+        
+        p{
+            text-align: center;
+            color: white;
+        }

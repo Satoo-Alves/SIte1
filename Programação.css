@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    border: 1px solid rgb(0, 204, 255);
+    border-radius: 30px;
+    background: rgb(0, 183, 255);
+    color: white;
+}
+.menu{
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    border: 1px solid rgb(0, 204, 255);
+    border-radius: 30px;
+    background: rgb(0, 183, 255);
+    color: white;
+}
+
+.menu a{
+        color: whitesmoke;
+        padding: 14px 16px;
+        float: left;
+        display: block;
+        text-decoration: none;
+    }
+    a{
+        color: white;
+    }
+    body{
+        background-image: url(https://thumbs.dreamstime.com/b/programming-coding-concept-flat-design-programming-coding-concept-css-python-c-java-javascript-html-php-ruby-c-155503869.jpg);
+    }
